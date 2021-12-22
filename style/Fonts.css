@@ -1,28 +1,3 @@
-.h1 {
-  line-height: 34.6px;
-  font-size: 28px;
-}
-
-.h2 {
-  line-height: 29.6px;
-  font-size: 24px;
-}
-
-.for_time {
-  line-height: 12.8px;
-  font-size: 12px;
-}
-
-.p {
-  line-height: 21px;
-  font-size: 16px;
-}
-
-.for_menu {
-  line-height: 16px;
-  font-size: 16px;
-}
-
 .some_blocks {
   display: block;
   position: fixed;
@@ -39,6 +14,44 @@
 .text {
   line-height: 22px;
   font-size: 32px;
+}
+.text > p {
+  font-family: "Pushster", cursive;
+}
+.text new {
+  font-family: "PT Serif", serif;
+}
+
+.h1 {
+  line-height: 34.6px;
+  font-size: 28px;
+  font-family: "PT Serif", serif;
+}
+
+.h2 {
+  line-height: 29.6px;
+  font-size: 24px;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+}
+
+.for_time {
+  line-height: 12.8px;
+  font-size: 12px;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+}
+
+.p {
+  line-height: 21px;
+  font-size: 16px;
+  font-family: "PT Serif", serif;
+}
+
+.for_menu {
+  line-height: 16px;
+  font-size: 16px;
+  font-family: "PT Serif", serif;
 }
 
 /*# sourceMappingURL=Fonts.css.map */

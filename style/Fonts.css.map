@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../styless/Fonts.scss"],"names":[],"mappings":"AAEA;EAEK;EACD;;;AAGJ;EACI;EACD;;;AAIH;EACI;EACA;;;AAKJ;EACI;EACA;;;AAGJ;EACI;EACA;;;AAGJ;EACI;EACH;EACG;EACA;EACH;EACA;;AAEG;EACI;EACA;;;AAKR;EACI;EACA","file":"Fonts.css"}
+{"version":3,"sourceRoot":"","sources":["../styless/Fonts.scss"],"names":[],"mappings":"AACA;EACI;EACH;EACG;EACA;EACH;EACA;;AAEG;EACI;EACA;;;AAKR;EACI;EACA;;AACA;EACA;;AAEA;EAEI;;;AAIR;EAEK;EACD;EACA;;;AAGJ;EACI;EACD;EACA;EACA;;;AAIH;EACI;EACA;EACA;EACA;;;AAKJ;EACI;EACA;EACA;;;AAGJ;EACI;EACA;EACA","file":"Fonts.css"}
