@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../styless/Colors.scss"],"names":[],"mappings":"AAMA;EACI,OANE;;;AAUN;EACQ,OARD;;;AAaP;EAEI,OAjBG;;;AAqBP;EAEI,OAxBE;;;AA4BN;EACI,OA3BE;;;AA8BN;EAQI,kBApCE;;AA8BF;EAEI,OAnCD","file":"Colors.css"}
+{"version":3,"sourceRoot":"","sources":["../styless/Colors.scss","../styless/const/const.scss"],"names":[],"mappings":"AACA;EACI,OCCE;;;ADGN;EACQ,OCDD;;;ADMP;EAEI,OCVG;;;ADcP;EAEI,OCjBE;;;ADqBN;EACI,OCpBE","file":"Colors.css"}

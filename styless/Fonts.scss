@@ -1,40 +1,7 @@
-$Seriffont: 'PT Serif', serif;
-$Pushfont: 'Pushster', cursive;
+@import "./const/const.scss";
 .body {
     margin: 0; /* Убираем отступы в браузере */
    }
-.some_blocks{
-    display: block;
-	position: fixed;
-    width: 100px;
-    height: 150px;
-	left: 960px;
-	top: 50px;
-
-    >p{
-        font-family: $Pushfont;
-        line-height: 21px;
-        font-size: 32px;
-    }
-}
-
-//Для контраста добавлю такой шрифт
-.text{
-   
-    >p{
-        line-height: 22px;
-        font-size: 40px;
-    font-family: $Pushfont;
-    }
-    .new{
-        
-        font-family:$Seriffont;
-          p{
-            line-height: 22px;
-            font-size: 32px;
-          }
-    }
-}
 h1{
      
      line-height: 34.6px;
@@ -71,29 +38,3 @@ p{
     font-family:$Seriffont;
 }
 
-
-    .main{
-        position: absolute;
-        bottom: 0px;
-        left : 0px;
-        width: 100%;
-        background-color: #507299;
-        height: 200px;
-    
-   .logotip{
-    //margin: 0 auto;
-  //  max-width: 350px;
-   // height: 150px;
-   position: absolute;
-   left: 50%;
-   top: 50%;
-   /* ширина и высота 2 блока */
-   width: 350px;  
-   height: 150px;
-   /* Значения определяются в зависимости от его размера */
-   /* margin-left = - width / 2 */
-   margin-left: -175px;
-   /* margin-top = - height / 2 */
-   margin-top: -75px;
-   }
-}

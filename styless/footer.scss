@@ -1,0 +1,27 @@
+@import "./const/const.scss";
+.foot{
+    position: absolute;
+    width: 100%;
+    background-color: #507299;
+    height: 150px;
+bottom: 0px;
+
+.logotip{
+
+position: absolute;
+left: 50%;
+top: 50%;
+width: 400px;  
+height: 120px;
+/* margin-left = - width / 2 */
+margin-left: -200px;
+/* margin-top = - height / 2 */
+margin-top: -60px;
+
+.logot{
+    width: 400px;  
+height: 120px;
+}
+}
+
+}

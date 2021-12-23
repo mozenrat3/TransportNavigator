@@ -1,28 +1,17 @@
-h1 {
-  color: black;
-}
+/* Error: Undefined variable.
+ *   ,
+ * 3 |     color: $bl;
+ *   |            ^^^
+ *   '
+ *   styless\Colors.scss 3:12  root stylesheet */
 
-h2 {
-  color: #507299;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a   \2577 \a 3 \2502      color: $bl;\d\a   \2502             ^^^\a   \2575 \a   styless\\Colors.scss 3:12  root stylesheet";
 }
-
-.for_time {
-  color: red;
-}
-
-p {
-  color: black;
-}
-
-.for_menu {
-  color: white;
-}
-
-.some_blocks {
-  background-color: #aea9e2;
-}
-.some_blocks p {
-  color: red;
-}
-
-/*# sourceMappingURL=Colors.css.map */

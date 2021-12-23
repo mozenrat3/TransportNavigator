@@ -1,0 +1,23 @@
+.myheader {
+  position: absolute;
+  width: 100%;
+  background-color: #507299;
+  height: 60px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.myheader .header__spisok {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.myheader .header__spisok .header__a {
+  color: white;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=header.css.map */

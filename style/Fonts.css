@@ -4,33 +4,6 @@
   /* Убираем отступы в браузере */
 }
 
-.some_blocks {
-  display: block;
-  position: fixed;
-  width: 100px;
-  height: 150px;
-  left: 960px;
-  top: 50px;
-}
-.some_blocks > p {
-  font-family: "Pushster", cursive;
-  line-height: 21px;
-  font-size: 32px;
-}
-
-.text > p {
-  line-height: 22px;
-  font-size: 40px;
-  font-family: "Pushster", cursive;
-}
-.text .new {
-  font-family: "PT Serif", serif;
-}
-.text .new p {
-  line-height: 22px;
-  font-size: 32px;
-}
-
 h1 {
   line-height: 34.6px;
   font-size: 28px;
@@ -61,28 +34,6 @@ p {
   line-height: 16px;
   font-size: 16px;
   font-family: "PT Serif", serif;
-}
-
-.main {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  background-color: #507299;
-  height: 200px;
-}
-.main .logotip {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  /* ширина и высота 2 блока */
-  width: 350px;
-  height: 150px;
-  /* Значения определяются в зависимости от его размера */
-  /* margin-left = - width / 2 */
-  margin-left: -175px;
-  /* margin-top = - height / 2 */
-  margin-top: -75px;
 }
 
 /*# sourceMappingURL=Fonts.css.map */
