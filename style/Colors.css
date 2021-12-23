@@ -1,5 +1,5 @@
 h1 {
-  color: #333;
+  color: black;
 }
 
 h2 {
@@ -11,11 +11,11 @@ h2 {
 }
 
 p {
-  color: #333;
+  color: black;
 }
 
 .for_menu {
-  color: #fff;
+  color: white;
 }
 
 .some_blocks {

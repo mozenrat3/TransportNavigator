@@ -1,3 +1,5 @@
+$Seriffont: 'PT Serif', serif;
+$Pushfont: 'Pushster', cursive;
 .body {
     margin: 0; /* Убираем отступы в браузере */
    }
@@ -10,6 +12,7 @@
 	top: 50px;
 
     >p{
+        font-family: $Pushfont;
         line-height: 21px;
         font-size: 32px;
     }
@@ -21,11 +24,11 @@
     >p{
         line-height: 22px;
         font-size: 40px;
-    font-family: 'Pushster', cursive;
+    font-family: $Pushfont;
     }
     .new{
         
-        font-family: 'PT Serif', serif;
+        font-family:$Seriffont;
           p{
             line-height: 22px;
             font-size: 32px;
@@ -36,13 +39,13 @@ h1{
      
      line-height: 34.6px;
     font-size: 28px;
-    font-family: 'PT Serif', serif;
+    font-family:$Seriffont;
 }
 
 h2{ 
     line-height: 29.6px;
    font-size: 24px;
-   font-family: 'PT Serif', serif;
+   font-family:$Seriffont;
    font-weight: 700;
 }
 
@@ -50,7 +53,7 @@ h2{
 .for_time{
     line-height: 12.8px;
     font-size: 12px;
-    font-family: 'PT Serif', serif;
+    font-family:$Seriffont;
     font-weight: 700;
 
 }
@@ -59,16 +62,38 @@ h2{
 p{
     line-height: 21px;
     font-size: 16px;
-    font-family: 'PT Serif', serif;
+    font-family:$Seriffont;
 }
 
 .for_menu{
     line-height: 16px;
     font-size: 16px;
-    font-family: 'PT Serif', serif;
+    font-family:$Seriffont;
 }
 
 
+    .main{
+        position: absolute;
+        bottom: 0px;
+        left : 0px;
+        width: 100%;
+        background-color: #507299;
+        height: 200px;
     
-   
-   
+   .logotip{
+    //margin: 0 auto;
+  //  max-width: 350px;
+   // height: 150px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   /* ширина и высота 2 блока */
+   width: 350px;  
+   height: 150px;
+   /* Значения определяются в зависимости от его размера */
+   /* margin-left = - width / 2 */
+   margin-left: -175px;
+   /* margin-top = - height / 2 */
+   margin-top: -75px;
+   }
+}

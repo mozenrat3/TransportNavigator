@@ -1,40 +1,43 @@
 
-
-
+$bl : black;
+$red : red;
+$wh : white;
+$blg : #507299;
+$grw :#aea9e2;
 h1{
-    color: #333;
+    color: $bl;
 }
 
 
 h2{
-        color: #507299;
+        color: $blg;
 }
 
 
 
 .for_time{
 
-    color: red;
+    color: $red;
 }
 
 
 p{
 
-    color: #333;
+    color: $bl;
 
 }
 
 .for_menu{
-    color: #fff
+    color: $wh;
 }
 
 .some_blocks{
 
     p{
 
-        color: red;
+        color: $red;
     
     }
 
-    background-color: #aea9e2;
+    background-color: $grw;
 }
