@@ -1,27 +1,25 @@
 @import "./const/const.scss";
-.foot{
+.footer{
     position: absolute;
     width: 100%;
-    background-color: #507299;
-    height: 150px;
+    background-color: $blg;
+    height: 123px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
 bottom: 0px;
+align-content: stretch;
+    align-items: center;
+    justify-content: space-evenly;
 
-.logotip{
+.footer__logotip{
 
-position: absolute;
-left: 50%;
-top: 50%;
-width: 400px;  
-height: 120px;
-/* margin-left = - width / 2 */
-margin-left: -200px;
-/* margin-top = - height / 2 */
-margin-top: -60px;
-
-.logot{
-    width: 400px;  
-height: 120px;
+position: relative;
+right: 50px;
+top: 3px;
+.footer__logot{
+    width: 406px;  
+height: 110px;
 }
 }
-
 }
