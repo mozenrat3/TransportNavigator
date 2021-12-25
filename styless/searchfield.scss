@@ -1,0 +1,16 @@
+@import "./const/const.scss";
+
+.search{
+    position: absolute;
+    width: 600px;
+    top: 100px;
+    background-color: $wh;
+    height: 43px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
+.search__field2{
+    width: 600px;
+}

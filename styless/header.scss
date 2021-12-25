@@ -1,5 +1,43 @@
 @import "./const/const.scss";
 
+
+@media screen and (min-width: 1441px ){   
+    .myheader{
+        position: absolute;
+            width: 100%;
+            background-color: $blg;
+            height: 40px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        
+        align-items: center;
+    
+    .header__nav{
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    .header__a{
+        font-size: 18px;
+        color : $wh;
+       text-decoration: none;
+       justify-content: space-between;
+       &:hover{
+           color: $red;
+       }
+    }
+    .header__a_color{
+        color: $red;
+        &:hover{
+            color: $wh;
+        }
+    }
+    }
+    }
+    }
+
+@media screen and (min-width: 901px ) and (max-width : 1440px) {   
 .myheader{
     position: absolute;
         width: 100%;
@@ -17,13 +55,92 @@
     display: flex;
     justify-content: space-between;
 .header__a{
-    font-size: 12px;
+    font-size: 16px;
     color : $wh;
    text-decoration: none;
    justify-content: space-between;
+   &:hover{
+       color: $red;
+   }
 }
 .header__a_color{
     color: $red;
+    &:hover{
+        color: $wh;
+    }
 }
 }
 }
+}
+@media screen and (min-width: 440px) and  (max-width: 900px) {    
+    .myheader{
+        position: absolute;
+            width: 100%;
+            background-color: $blg;
+            height: 40px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        
+        align-items: center;
+    
+    .header__nav{
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    .header__a{
+        font-size: 12px;
+        color : $wh;
+       text-decoration: none;
+       justify-content: space-between;
+       &:hover{
+           color: $red;
+       }
+    }
+    .header__a_color{
+        color: $red;
+        &:hover{
+            color: $wh;
+        }
+    }
+    }
+    }
+}
+
+
+@media screen and (max-width : 439px) {   
+    .myheader{
+        position: absolute;
+            width: 100%;
+            background-color: $blg;
+            height: 40px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        
+        align-items: center;
+    
+    .header__nav{
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    .header__a{
+        font-size: 10px;
+        color : $wh;
+       text-decoration: none;
+       justify-content: space-between;
+       &:hover{
+           color: $red;
+       }
+    }
+    .header__a_color{
+        color: $red;
+        &:hover{
+            color: $wh;
+        }
+    }
+    }
+    }
+    }

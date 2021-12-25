@@ -17,8 +17,12 @@
   top: 3px;
 }
 .footer .footer__logotip .footer__logot {
-  width: 406px;
+  width: 306px;
   height: 110px;
+}
+.footer .footer_text {
+  color: white;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=footer.css.map */

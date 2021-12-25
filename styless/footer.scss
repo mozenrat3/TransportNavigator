@@ -1,4 +1,6 @@
 @import "./const/const.scss";
+
+
 .footer{
     position: absolute;
     width: 100%;
@@ -18,8 +20,14 @@ position: relative;
 right: 50px;
 top: 3px;
 .footer__logot{
-    width: 406px;  
+    width: 306px;  
 height: 110px;
 }
 }
+.footer_text{
+    color: $wh;
+    font-size: 16px;
 }
+
+}
+
