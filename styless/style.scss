@@ -6,12 +6,17 @@
 @import "./mainmenutramvaj.scss";
 @import "./mainmenutrolleybus.scss";
 @import "./mainmenuostanovka.scss";
-body{
-    margin:0;
-}
+@import "./secondhead.scss";
+@import "./textblock1.scss";
+@import "./secondhead2.scss";
+@import "./textblock2.scss";
 
 
+html, body{
+    min-height: 100%;
+   }
 
+  
 
 
 

@@ -1,0 +1,81 @@
+@media screen and (min-width: 1441px) {
+  .text2 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 475px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text2 p {
+    color: black;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1440px) {
+  .text2 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 435px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text2 p {
+    color: black;
+    line-height: 18px;
+    font-size: 14px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 440px) and (max-width: 900px) {
+  .text2 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 430px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text2 p {
+    color: black;
+    line-height: 14px;
+    font-size: 12px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 439px) {
+  .text2 {
+    position: absolute;
+    width: 80%;
+    top: 405px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text2 p {
+    color: black;
+    line-height: 14px;
+    font-size: 10px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/*# sourceMappingURL=textblock2.css.map */

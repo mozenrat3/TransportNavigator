@@ -1,0 +1,107 @@
+
+@import "./const/const.scss";
+   
+
+@media screen and (min-width: 1441px ){   
+  
+.zag22{
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 450px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+
+h2{
+     color: $blg;
+    line-height: 20px;
+   font-size: 24px;
+   font-family:$Seriffont;
+   font-weight: 700;
+   display: flex;
+   justify-content: space-between;
+        
+}
+}
+}
+@media screen and (min-width: 901px ) and (max-width : 1440px) {   
+    
+.zag22{
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 415px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+
+h2{
+     color: $blg;
+    line-height: 20px;
+   font-size: 20px;
+   font-family:$Seriffont;
+   font-weight: 700;
+   display: flex;
+   justify-content: space-between;
+        
+}
+}
+}
+@media screen and (min-width: 440px) and  (max-width: 900px) {    
+    
+.zag22{
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 410px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+
+h2{
+     color: $blg;
+     line-height: 20px;
+   font-size: 16px;
+   font-family:$Seriffont;
+   font-weight: 700;
+   display: flex;
+   justify-content: space-between;
+        
+}
+}
+}
+
+@media screen and (max-width : 439px) {   
+    
+.zag22{
+    position: absolute;
+    width: 80%;
+    top: 395px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+
+h2{
+     color: $blg;
+    line-height: 20px;
+   font-size: 14px;
+   font-family:$Seriffont;
+   font-weight: 700;
+   display: flex;
+   justify-content: space-between;
+        
+}
+}
+}
+
+
+

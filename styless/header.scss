@@ -3,6 +3,7 @@
 
 @media screen and (min-width: 1441px ){   
     .myheader{
+        flex: 0 0 auto;
         position: absolute;
             width: 100%;
             background-color: $blg;
@@ -39,6 +40,7 @@
 
 @media screen and (min-width: 901px ) and (max-width : 1440px) {   
 .myheader{
+    flex: 0 0 auto;
     position: absolute;
         width: 100%;
         background-color: $blg;
@@ -74,6 +76,7 @@
 }
 @media screen and (min-width: 440px) and  (max-width: 900px) {    
     .myheader{
+        flex: 0 0 auto;
         position: absolute;
             width: 100%;
             background-color: $blg;
@@ -111,6 +114,7 @@
 
 @media screen and (max-width : 439px) {   
     .myheader{
+        flex: 0 0 auto;
         position: absolute;
             width: 100%;
             background-color: $blg;

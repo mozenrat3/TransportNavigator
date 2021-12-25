@@ -1,12 +1,12 @@
 .footer {
-  position: absolute;
+  bottom: 0%;
+  position: fixed;
   width: 100%;
   background-color: #507299;
   height: 123px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
-  bottom: 0px;
   align-content: stretch;
   align-items: center;
   justify-content: space-evenly;
@@ -27,6 +27,7 @@
 
 @media screen and (min-width: 1441px) {
   .myheader {
+    flex: 0 0 auto;
     position: absolute;
     width: 100%;
     background-color: #507299;
@@ -60,6 +61,7 @@
 }
 @media screen and (min-width: 901px) and (max-width: 1440px) {
   .myheader {
+    flex: 0 0 auto;
     position: absolute;
     width: 100%;
     background-color: #507299;
@@ -93,6 +95,7 @@
 }
 @media screen and (min-width: 440px) and (max-width: 900px) {
   .myheader {
+    flex: 0 0 auto;
     position: absolute;
     width: 100%;
     background-color: #507299;
@@ -126,6 +129,7 @@
 }
 @media screen and (max-width: 439px) {
   .myheader {
+    flex: 0 0 auto;
     position: absolute;
     width: 100%;
     background-color: #507299;
@@ -348,7 +352,7 @@
 }
 .mainmenu .mainmenubus .mainmenubus__text {
   align-self: flex-end;
-  font-size: 14px;
+  font-size: 12px;
 }
 .mainmenu .mainmenubus .mainmenubus__text .bus {
   text-decoration: none;
@@ -373,7 +377,7 @@
 }
 .mainmenutram .mainmenutram__text {
   align-self: flex-end;
-  font-size: 14px;
+  font-size: 12px;
 }
 .mainmenutram .mainmenutram__text .tram {
   text-decoration: none;
@@ -398,7 +402,7 @@
 }
 .mainmenutroll .mainmenutroll__text {
   align-self: flex-end;
-  font-size: 14px;
+  font-size: 12px;
 }
 .mainmenutroll .mainmenutroll__text .troll {
   text-decoration: none;
@@ -423,14 +427,338 @@
 }
 .mainmenustop .mainmenustop__text {
   align-self: flex-end;
-  font-size: 14px;
+  font-size: 12px;
 }
 .mainmenustop .mainmenustop__text .stop {
   text-decoration: none;
 }
 
-body {
-  margin: 0;
+@media screen and (min-width: 1441px) {
+  .zag2 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 250px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag2 h2 {
+    color: #507299;
+    line-height: 20px;
+    font-size: 24px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1440px) {
+  .zag2 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 250px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag2 h2 {
+    color: #507299;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 440px) and (max-width: 900px) {
+  .zag2 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 250px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag2 h2 {
+    color: #507299;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 439px) {
+  .zag2 {
+    position: absolute;
+    width: 80%;
+    top: 250px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag2 h2 {
+    color: #507299;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .text1 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 280px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text1 p {
+    color: black;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1440px) {
+  .text1 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 280px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text1 p {
+    color: black;
+    line-height: 18px;
+    font-size: 14px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 440px) and (max-width: 900px) {
+  .text1 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 280px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text1 p {
+    color: black;
+    line-height: 14px;
+    font-size: 12px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 439px) {
+  .text1 {
+    position: absolute;
+    width: 80%;
+    top: 280px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text1 p {
+    color: black;
+    line-height: 14px;
+    font-size: 10px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .zag22 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 450px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag22 h2 {
+    color: #507299;
+    line-height: 20px;
+    font-size: 24px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1440px) {
+  .zag22 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 415px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag22 h2 {
+    color: #507299;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 440px) and (max-width: 900px) {
+  .zag22 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 410px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag22 h2 {
+    color: #507299;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 439px) {
+  .zag22 {
+    position: absolute;
+    width: 80%;
+    top: 395px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag22 h2 {
+    color: #507299;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .text2 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 475px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text2 p {
+    color: black;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1440px) {
+  .text2 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 435px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text2 p {
+    color: black;
+    line-height: 18px;
+    font-size: 14px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 440px) and (max-width: 900px) {
+  .text2 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 430px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text2 p {
+    color: black;
+    line-height: 14px;
+    font-size: 12px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 439px) {
+  .text2 {
+    position: absolute;
+    width: 80%;
+    top: 405px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text2 p {
+    color: black;
+    line-height: 14px;
+    font-size: 10px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+html, body {
+  min-height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

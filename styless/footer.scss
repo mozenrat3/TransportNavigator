@@ -2,14 +2,15 @@
 
 
 .footer{
-    position: absolute;
+    bottom: 0%;
+    position: fixed;
     width: 100%;
     background-color: $blg;
     height: 123px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
-bottom: 0px;
+    
 align-content: stretch;
     align-items: center;
     justify-content: space-evenly;
