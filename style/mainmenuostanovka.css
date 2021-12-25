@@ -1,0 +1,26 @@
+.mainmenustop {
+  margin-left: 285px;
+  border: 4px double black;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  flex-direction: column;
+}
+.mainmenustop .mainmenustop__pict {
+  align-self: flex-start;
+}
+.mainmenustop .mainmenustop__pict .stoptimetable {
+  margin-left: 23%;
+  height: 50%;
+  width: 50%;
+}
+.mainmenustop .mainmenustop__text {
+  align-self: flex-end;
+  font-size: 14px;
+}
+.mainmenustop .mainmenustop__text .stop {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=mainmenuostanovka.css.map */

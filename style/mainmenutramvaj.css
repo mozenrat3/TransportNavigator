@@ -1,0 +1,26 @@
+.mainmenutram {
+  margin-left: 190px;
+  border: 4px double black;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  flex-direction: column;
+}
+.mainmenutram .mainmenutram__pict {
+  align-self: flex-start;
+}
+.mainmenutram .mainmenutram__pict .tramtimetable {
+  margin-left: 23%;
+  height: 50%;
+  width: 50%;
+}
+.mainmenutram .mainmenutram__text {
+  align-self: flex-end;
+  font-size: 14px;
+}
+.mainmenutram .mainmenutram__text .tram {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=mainmenutramvaj.css.map */

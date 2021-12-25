@@ -1,0 +1,35 @@
+.mainmenu {
+  position: absolute;
+  width: 400px;
+  height: 88px;
+  top: 150px;
+  left: 10%;
+  padding-right: 0.5em;
+  background-color: white;
+  display: flex;
+}
+.mainmenu .mainmenubus {
+  border: 4px double black;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  flex-direction: column;
+}
+.mainmenu .mainmenubus .mainmenubus__pict {
+  align-self: flex-start;
+}
+.mainmenu .mainmenubus .mainmenubus__pict .bustimetable {
+  margin-left: 23%;
+  height: 50%;
+  width: 50%;
+}
+.mainmenu .mainmenubus .mainmenubus__text {
+  align-self: flex-end;
+  font-size: 14px;
+}
+.mainmenu .mainmenubus .mainmenubus__text .bus {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=mainmenubus.css.map */

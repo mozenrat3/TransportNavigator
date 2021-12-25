@@ -1,0 +1,43 @@
+@import "./const/const.scss";
+
+.mainmenu{
+
+    position: absolute;
+    width: 400px;
+    height: 88px;
+    top: 150px;
+    left: 10%;
+    padding-right: .5em;
+    background-color: $wh;
+    display: flex;
+
+.mainmenubus{
+    
+    border: 4px double black;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: $wh;
+  
+    flex-direction: column;
+  
+    .mainmenubus__pict{
+        align-self: flex-start;   
+        
+    
+    .bustimetable{
+        margin-left:23%;
+        height: 50%;
+        width:  50%;
+    }
+    }
+    .mainmenubus__text{
+        align-self: flex-end;
+        font-size: 14px;
+        
+        .bus{
+            text-decoration: none;
+        }
+    }
+}
+}
