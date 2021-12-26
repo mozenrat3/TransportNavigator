@@ -1,0 +1,18 @@
+.zagolovok {
+  position: absolute;
+  top: 60px;
+  left: 10%;
+  width: 400px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+.zagolovok p {
+  font-size: 28px;
+  color: #507299;
+  font-family: Pushfont;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=zagolovok.css.map */

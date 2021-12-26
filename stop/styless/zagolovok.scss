@@ -1,0 +1,18 @@
+@import "./const/const.scss";
+
+.zagolovok{
+    position: absolute;
+    top:60px;
+    left: 10%;
+    width:400px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    p{
+        font-size: 28px;
+        color : $blg;
+        font-family: Pushfont;
+       text-decoration: none;
+       justify-content: space-between;
+    }
+}

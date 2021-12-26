@@ -1,0 +1,24 @@
+.search {
+  position: absolute;
+  top: 150px;
+  left: 20%;
+  width: 400px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+.search .search__nav {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.search .search__nav .search__a {
+  text-decoration: none;
+  justify-content: space-between;
+}
+.search .search__nav .search__a:hover {
+  color: red;
+}
+
+/*# sourceMappingURL=search.css.map */
