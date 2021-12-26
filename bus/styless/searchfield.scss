@@ -1,0 +1,96 @@
+@import "./const/const.scss";
+
+
+@media screen and (min-width: 1441px ){   
+    .search{
+        position: absolute;
+        width: 80%;
+        max-width: 800px;
+        top: 50px;
+        left: 10%;
+        background-color: $wh;
+        height: 43px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    
+    
+    .search__field2{
+        margin: 0 auto;
+        height: 40px;
+        width: 1100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    }
+}
+
+@media screen and (min-width: 901px ) and (max-width : 1440px) {   
+    .search{
+        position: absolute;
+        width: 80%;
+        max-width: 800px;
+        top: 50px;
+        left: 10%;
+        background-color: $wh;
+        height: 43px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    
+    
+    .search__field2{
+        margin: 0 auto;
+        height: 40px;
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+}
+@media screen and (min-width: 440px) and  (max-width: 900px) {    
+    .search{
+        position: absolute;
+        width: 80%;
+        max-width: 800px;
+        top: 50px;
+        left: 10%;
+        background-color: $wh;
+        height: 43px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    
+    
+    .search__field2{
+        margin: 0 auto;
+        height: 40px;
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+}
+
+@media screen and (max-width : 439px) {   
+    .search{
+        position: absolute;
+        width: 80%;
+        max-width: 800px;
+        top: 50px;
+        left: 10%;
+        background-color: $wh;
+        height: 43px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    
+    .search__field2{
+        margin: 0 auto;
+        height: 40px;
+        width: 40%;
+        display: flex;
+        justify-content: space-between;
+    }
+    }
+}
