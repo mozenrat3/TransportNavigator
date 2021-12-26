@@ -1,0 +1,42 @@
+@import "./const/const.scss";
+
+    .typebar{
+
+        position: absolute;
+        width: 80%;
+        max-width: 220px;
+       top:100px;
+        left: 10%;
+        height: 30px;
+        display: flex;  
+
+    .typebar__Time{
+        position: absolute;
+        
+        width: 100px;
+        background-color: $bl;
+        height: 30px;
+        .Text{
+            line-height: 30px;
+            font-size: 14px;
+            color:$wh;
+            font-family: $Seriffont;
+        }
+    }
+
+    .typebar__Troll{
+
+        position: absolute;
+        margin-left: 115px;
+        width: 100px;
+      background-color: $blue;
+        height: 30px;
+        .typebar__Text1{
+            line-height: 30px;
+            font-size: 14px;
+            color:$wh;
+            font-family: $Seriffont;
+        }
+    }
+
+    }

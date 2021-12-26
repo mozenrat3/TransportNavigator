@@ -1,0 +1,108 @@
+
+@import "./const/const.scss";
+   
+
+@media screen and (min-width: 1441px ){   
+  
+.zag22{
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 465px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+
+h2{
+     color: $blg;
+    line-height: 20px;
+   font-size: 24px;
+   font-family:$Seriffont;
+   font-weight: 700;
+   display: flex;
+   justify-content: space-between;
+        
+}
+}
+}
+@media screen and (min-width: 901px ) and (max-width : 1440px) {   
+    
+    .zag22{
+        position: absolute;
+        width: 80%;
+        max-width: 850px;
+        top: 435px;
+        left: 10%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    
+    
+    h2{
+         color: $blg;
+        line-height: 20px;
+       font-size: 24px;
+       font-family:$Seriffont;
+       font-weight: 700;
+       display: flex;
+       justify-content: space-between;
+            
+    }
+    }
+}
+@media screen and (min-width: 440px) and  (max-width: 900px) {    
+    
+    .zag22{
+        position: absolute;
+        width: 80%;
+        max-width: 850px;
+        top: 435px;
+        left: 10%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    
+    
+    h2{
+         color: $blg;
+        line-height: 20px;
+       font-size: 24px;
+       font-family:$Seriffont;
+       font-weight: 700;
+       display: flex;
+       justify-content: space-between;
+            
+    }
+    }
+}
+
+@media screen and (max-width : 439px) {   
+    
+    .zag22{
+        position: absolute;
+        width: 80%;
+        max-width: 850px;
+        top: 435px;
+        left: 10%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    
+    
+    h2{
+         color: $blg;
+        line-height: 20px;
+       font-size: 24px;
+       font-family:$Seriffont;
+       font-weight: 700;
+       display: flex;
+       justify-content: space-between;
+            
+    }
+    }
+}
+
+
+

@@ -1,0 +1,105 @@
+
+@import "./const/const.scss";
+   
+
+@media screen and (min-width: 1441px ){   
+  
+.text2{
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 500px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+
+p{
+     color:$bl;
+    line-height: 20px;
+   font-size: 16px;
+   font-family:$Seriffont;
+   
+   display: flex;
+   justify-content: space-between;
+        
+}
+}
+}
+@media screen and (min-width: 901px ) and (max-width : 1440px) {   
+    
+.text2{
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 470px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+
+p{
+    color:$bl;
+    line-height: 18px;
+   font-size: 14px;
+   font-family:$Seriffont;
+   display: flex;
+   justify-content: space-between;
+        
+}
+}
+}
+@media screen and (min-width: 440px) and  (max-width: 900px) {    
+    
+.text2{
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 470px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+
+p{
+    color:$bl;
+     line-height: 14px;
+   font-size: 12px;
+   font-family:$Seriffont;
+   display: flex;
+   justify-content: space-between;
+        
+}
+}
+}
+
+@media screen and (max-width : 439px) {   
+    
+.text2{
+    position: absolute;
+    width: 80%;
+    top: 470px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+
+
+p{
+    color:$bl;
+    line-height: 14px;
+   font-size: 10px;
+   font-family:$Seriffont;
+
+   display: flex;
+   justify-content: space-between;
+        
+}
+}
+}
+
+
+

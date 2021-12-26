@@ -375,7 +375,7 @@
   }
   .abzac .footer {
     position: absolute;
-    margin-top: 10px;
+    margin-top: 12px;
     width: 100%;
     background-color: #507299;
     height: 123px;
@@ -404,7 +404,7 @@
   .busimage {
     position: absolute;
     width: 10%;
-    top: 132px;
+    top: 137px;
     left: 10%;
     display: flex;
     flex-flow: row nowrap;
@@ -419,7 +419,7 @@
     position: absolute;
     width: 80%;
     max-width: 850px;
-    top: 122px;
+    top: 127px;
     left: 14%;
     display: flex;
     flex-flow: row nowrap;
@@ -438,7 +438,7 @@
   .busimage {
     position: absolute;
     width: 10%;
-    top: 132px;
+    top: 137px;
     left: 10%;
     display: flex;
     flex-flow: row nowrap;
@@ -453,7 +453,7 @@
     position: absolute;
     width: 80%;
     max-width: 850px;
-    top: 120px;
+    top: 125px;
     left: 14%;
     display: flex;
     flex-flow: row nowrap;
@@ -461,8 +461,8 @@
   }
   .zag1 h1 {
     color: gray;
-    line-height: 20px;
-    font-size: 22px;
+    line-height: 26px;
+    font-size: 26px;
     font-family: "PT Serif", serif;
     display: flex;
     justify-content: space-between;
@@ -472,7 +472,7 @@
   .busimage {
     position: absolute;
     width: 10%;
-    top: 132px;
+    top: 137px;
     left: 10%;
     display: flex;
     flex-flow: row nowrap;
@@ -487,7 +487,7 @@
     position: absolute;
     width: 80%;
     max-width: 850px;
-    top: 120px;
+    top: 125px;
     left: 16%;
     display: flex;
     flex-flow: row nowrap;
@@ -495,7 +495,7 @@
   }
   .zag1 h1 {
     color: gray;
-    line-height: 20px;
+    line-height: 23px;
     font-size: 18px;
     font-family: "PT Serif", serif;
     display: flex;
@@ -506,7 +506,7 @@
   .busimage {
     position: absolute;
     width: 10%;
-    top: 132px;
+    top: 137px;
     left: 10%;
     display: flex;
     flex-flow: row nowrap;
@@ -520,7 +520,7 @@
   .zag1 {
     position: absolute;
     width: 80%;
-    top: 120px;
+    top: 125px;
     left: 16%;
     display: flex;
     flex-flow: row nowrap;
@@ -529,7 +529,368 @@
   .zag1 h1 {
     color: gray;
     line-height: 20px;
+    font-size: 20px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.Text3 {
+  position: absolute;
+  width: 50%;
+  top: 180px;
+  font-size: 24px;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  left: 40%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.ChooseBus {
+  position: absolute;
+  width: 90%;
+  top: 220px;
+  left: 2%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+.ChooseBus .ChooseBus__nav {
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  margin: 0 auto;
+  width: 80%;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: red;
+}
+.ChooseBus .ChooseBus__a {
+  text-decoration-color: red;
+}
+
+@media screen and (min-width: 1441px) {
+  .zag2 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 265px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag2 h2 {
+    color: #507299;
+    line-height: 20px;
+    font-size: 24px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1440px) {
+  .zag2 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 265px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag2 h2 {
+    color: #507299;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 440px) and (max-width: 900px) {
+  .zag2 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 265px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag2 h2 {
+    color: #507299;
+    line-height: 20px;
     font-size: 16px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 439px) {
+  .zag2 {
+    position: absolute;
+    width: 80%;
+    top: 265px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag2 h2 {
+    color: #507299;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .text1 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 295px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text1 p {
+    color: black;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1440px) {
+  .text1 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 295px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text1 p {
+    color: black;
+    line-height: 18px;
+    font-size: 14px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 440px) and (max-width: 900px) {
+  .text1 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 295px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text1 p {
+    color: black;
+    line-height: 14px;
+    font-size: 12px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 439px) {
+  .text1 {
+    position: absolute;
+    width: 80%;
+    top: 295px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text1 p {
+    color: black;
+    line-height: 14px;
+    font-size: 10px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .zag22 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 465px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag22 h2 {
+    color: #507299;
+    line-height: 20px;
+    font-size: 24px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1440px) {
+  .zag22 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 435px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag22 h2 {
+    color: #507299;
+    line-height: 20px;
+    font-size: 24px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 440px) and (max-width: 900px) {
+  .zag22 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 435px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag22 h2 {
+    color: #507299;
+    line-height: 20px;
+    font-size: 24px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 439px) {
+  .zag22 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 435px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag22 h2 {
+    color: #507299;
+    line-height: 20px;
+    font-size: 24px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .text2 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 500px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text2 p {
+    color: black;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 1440px) {
+  .text2 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 470px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text2 p {
+    color: black;
+    line-height: 18px;
+    font-size: 14px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 440px) and (max-width: 900px) {
+  .text2 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 470px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text2 p {
+    color: black;
+    line-height: 14px;
+    font-size: 12px;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 439px) {
+  .text2 {
+    position: absolute;
+    width: 80%;
+    top: 470px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .text2 p {
+    color: black;
+    line-height: 14px;
+    font-size: 10px;
     font-family: "PT Serif", serif;
     display: flex;
     justify-content: space-between;
