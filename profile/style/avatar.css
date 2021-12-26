@@ -1,0 +1,24 @@
+.all {
+  height: 375px;
+  position: absolute;
+  top: 115px;
+  left: 10%;
+  width: 400px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+.all .avatar {
+  height: 370px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.all .avatar .avatar__image {
+  height: 370px;
+}
+
+/*# sourceMappingURL=avatar.css.map */

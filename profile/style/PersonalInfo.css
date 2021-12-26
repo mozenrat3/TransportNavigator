@@ -1,0 +1,24 @@
+.PersonalInfo {
+  position: absolute;
+  height: 300px;
+  width: 100px;
+  top: 15px;
+  left: 291px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+.PersonalInfo .PersonalInfo_login {
+  position: absolute;
+  height: 30%;
+  width: 100%;
+  top: 55px;
+}
+.PersonalInfo .PersonalInfo_status {
+  position: absolute;
+  height: 30%;
+  width: 100%;
+  top: 105px;
+}
+
+/*# sourceMappingURL=PersonalInfo.css.map */
