@@ -1,25 +1,16 @@
 @import "./const/const.scss";
 
 
-@import "./const/const.scss";
+@import "./mixin.scss";
 
     
-
-
 @media screen and (min-width: 1441px ){  
     .registration{
         font-size: 16px;
     } 
     .registration
     {
-        
-        background-color: #fff;
-        background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
-        background-image: -webkit-linear-gradient(top, #fff, #eee);
-        background-image: -moz-linear-gradient(top, #fff, #eee);
-        background-image: -ms-linear-gradient(top, #fff, #eee);
-        background-image: -o-linear-gradient(top, #fff, #eee);
-        background-image: linear-gradient(top, #fff, #eee);  
+      @include registration-color;
         height: 270px;
         width: 40%;
        // margin: -150px 0 0 -230px;
@@ -31,31 +22,6 @@
         position: absolute;
         top: 130px;
         left:   25%;
-        z-index: 0;
-        -moz-border-radius: 3px;
-        -webkit-border-radius: 3px;
-        border-radius: 3px;  
-        -webkit-box-shadow:
-              0 0 2px rgba(0, 0, 0, 0.2),
-              0 1px 1px rgba(0, 0, 0, .2),
-              0 3px 0 #fff,
-              0 4px 0 rgba(0, 0, 0, .2),
-              0 6px 0 #fff,  
-              0 7px 0 rgba(0, 0, 0, .2);
-        -moz-box-shadow:
-              0 0 2px rgba(0, 0, 0, 0.2),  
-              1px 1px   0 rgba(0,   0,   0,   .1),
-              3px 3px   0 rgba(255, 255, 255, 1),
-              4px 4px   0 rgba(0,   0,   0,   .1),
-              6px 6px   0 rgba(255, 255, 255, 1),  
-              7px 7px   0 rgba(0,   0,   0,   .1);
-        box-shadow:
-              0 0 2px rgba(0, 0, 0, 0.2),  
-              0 1px 1px rgba(0, 0, 0, .2),
-              0 3px 0 #fff,
-              0 4px 0 rgba(0, 0, 0, .2),
-              0 6px 0 #fff,  
-              0 7px 0 rgba(0, 0, 0, .2);
     }
     .registration:before
 {
@@ -102,17 +68,7 @@ fieldset
 
 .inputs input
 {
-    background: #f1f1f1 url(http://www.red-team-design.com/wp-content/uploads/2011/09/login-sprite.png) no-repeat;
-    padding: 15px 15px 15px 30px;
-    margin: 0 0 10px 0;
-    width: 80%; /* 353 + 2 + 45 = 400 */
-    border: 1px solid #ccc;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
-    -webkit-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
-    box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+   @include input;
 }
 .login{
     background-position: 5px -52px !important;
@@ -145,47 +101,12 @@ fieldset
 
 .submit
 {		
-    background-color: #3151A2;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#3151A2), to(#3151A2));
-    background-image: -webkit-linear-gradient(top, #3151A2, #3151A2);
-    background-image: -moz-linear-gradient(top, #3151A2, #3151A2);
-    background-image: -ms-linear-gradient(top, #3151A2, #3151A2);
-    background-image: -o-linear-gradient(top, #3151A2, #3151A2);
-    background-image: linear-gradient(top, #3151A2, #3151A2);
-    
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    
-    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-    
-     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
-     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
-     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
-    
-    border-width: 1px;
-    border-style: solid;
-    border-color: #3151A2 #3151A2 #3151A2 #3151A2;
-
-    float: left;
-    height: 35px;
-    padding: 0;
-    width: 160px;
-    cursor: pointer;
-    font: bold 15px Arial, Helvetica;
-    color: #ffb94b;
+   @include submit;
 }
 
 .submit:hover,.submit:focus
 {		
-    color: #3151A2;
-    background-color: #fddb6f;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
-    background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
-    background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
-    background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
-    background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
-    background-image: linear-gradient(top, #ffb94b, #fddb6f);
+    @include submithf
 }	
 
 .submit:active
@@ -231,14 +152,7 @@ fieldset
     }
     .registration
     {
-        
-        background-color: #fff;
-        background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
-        background-image: -webkit-linear-gradient(top, #fff, #eee);
-        background-image: -moz-linear-gradient(top, #fff, #eee);
-        background-image: -ms-linear-gradient(top, #fff, #eee);
-        background-image: -o-linear-gradient(top, #fff, #eee);
-        background-image: linear-gradient(top, #fff, #eee);  
+        @include registration-color;
         height: 270px;
         width: 50%;
        // margin: -150px 0 0 -230px;
@@ -250,31 +164,6 @@ fieldset
         position: absolute;
         top: 130px;
         left:   20%;
-        z-index: 0;
-        -moz-border-radius: 3px;
-        -webkit-border-radius: 3px;
-        border-radius: 3px;  
-        -webkit-box-shadow:
-              0 0 2px rgba(0, 0, 0, 0.2),
-              0 1px 1px rgba(0, 0, 0, .2),
-              0 3px 0 #fff,
-              0 4px 0 rgba(0, 0, 0, .2),
-              0 6px 0 #fff,  
-              0 7px 0 rgba(0, 0, 0, .2);
-        -moz-box-shadow:
-              0 0 2px rgba(0, 0, 0, 0.2),  
-              1px 1px   0 rgba(0,   0,   0,   .1),
-              3px 3px   0 rgba(255, 255, 255, 1),
-              4px 4px   0 rgba(0,   0,   0,   .1),
-              6px 6px   0 rgba(255, 255, 255, 1),  
-              7px 7px   0 rgba(0,   0,   0,   .1);
-        box-shadow:
-              0 0 2px rgba(0, 0, 0, 0.2),  
-              0 1px 1px rgba(0, 0, 0, .2),
-              0 3px 0 #fff,
-              0 4px 0 rgba(0, 0, 0, .2),
-              0 6px 0 #fff,  
-              0 7px 0 rgba(0, 0, 0, .2);
     }
     .registration:before
 {
@@ -321,17 +210,7 @@ fieldset
 
 .inputs input
 {
-    background: #f1f1f1 url(http://www.red-team-design.com/wp-content/uploads/2011/09/login-sprite.png) no-repeat;
-    padding: 15px 15px 15px 30px;
-    margin: 0 0 10px 0;
-    width: 80%; /* 353 + 2 + 45 = 400 */
-    border: 1px solid #ccc;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
-    -webkit-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
-    box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    @include input;
 }
 .login{
     background-position: 5px -52px !important;
@@ -364,47 +243,12 @@ fieldset
 
 .submit
 {		
-    background-color: #3151A2;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#3151A2), to(#3151A2));
-    background-image: -webkit-linear-gradient(top, #3151A2, #3151A2);
-    background-image: -moz-linear-gradient(top, #3151A2, #3151A2);
-    background-image: -ms-linear-gradient(top, #3151A2, #3151A2);
-    background-image: -o-linear-gradient(top, #3151A2, #3151A2);
-    background-image: linear-gradient(top, #3151A2, #3151A2);
-    
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    
-    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-    
-     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
-     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
-     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
-    
-    border-width: 1px;
-    border-style: solid;
-    border-color: #3151A2 #3151A2 #3151A2 #3151A2;
-
-    float: left;
-    height: 35px;
-    padding: 0;
-    width: 160px;
-    cursor: pointer;
-    font: bold 15px Arial, Helvetica;
-    color: #ffb94b;
+   @include submit;
 }
 
 .submit:hover,.submit:focus
 {		
-    color: #3151A2;
-    background-color: #fddb6f;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
-    background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
-    background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
-    background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
-    background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
-    background-image: linear-gradient(top, #ffb94b, #fddb6f);
+    @include submithf
 }	
 
 .submit:active
@@ -450,14 +294,7 @@ fieldset
     } 
     .registration
     {
-        
-        background-color: #fff;
-        background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
-        background-image: -webkit-linear-gradient(top, #fff, #eee);
-        background-image: -moz-linear-gradient(top, #fff, #eee);
-        background-image: -ms-linear-gradient(top, #fff, #eee);
-        background-image: -o-linear-gradient(top, #fff, #eee);
-        background-image: linear-gradient(top, #fff, #eee);  
+        @include registration-color;
         height: 270px;
         width: 50%;
        // margin: -150px 0 0 -230px;
@@ -469,31 +306,6 @@ fieldset
         position: absolute;
         top: 130px;
         left:   25%;
-        z-index: 0;
-        -moz-border-radius: 3px;
-        -webkit-border-radius: 3px;
-        border-radius: 3px;  
-        -webkit-box-shadow:
-              0 0 2px rgba(0, 0, 0, 0.2),
-              0 1px 1px rgba(0, 0, 0, .2),
-              0 3px 0 #fff,
-              0 4px 0 rgba(0, 0, 0, .2),
-              0 6px 0 #fff,  
-              0 7px 0 rgba(0, 0, 0, .2);
-        -moz-box-shadow:
-              0 0 2px rgba(0, 0, 0, 0.2),  
-              1px 1px   0 rgba(0,   0,   0,   .1),
-              3px 3px   0 rgba(255, 255, 255, 1),
-              4px 4px   0 rgba(0,   0,   0,   .1),
-              6px 6px   0 rgba(255, 255, 255, 1),  
-              7px 7px   0 rgba(0,   0,   0,   .1);
-        box-shadow:
-              0 0 2px rgba(0, 0, 0, 0.2),  
-              0 1px 1px rgba(0, 0, 0, .2),
-              0 3px 0 #fff,
-              0 4px 0 rgba(0, 0, 0, .2),
-              0 6px 0 #fff,  
-              0 7px 0 rgba(0, 0, 0, .2);
     }
     .registration:before
 {
@@ -540,17 +352,7 @@ fieldset
 
 .inputs input
 {
-    background: #f1f1f1 url(http://www.red-team-design.com/wp-content/uploads/2011/09/login-sprite.png) no-repeat;
-    padding: 15px 15px 15px 30px;
-    margin: 0 0 10px 0;
-    width: 80%; /* 353 + 2 + 45 = 400 */
-    border: 1px solid #ccc;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
-    -webkit-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
-    box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    @include input;
 }
 .login{
     background-position: 5px -52px !important;
@@ -583,47 +385,12 @@ fieldset
 
 .submit
 {		
-    background-color: #3151A2;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#3151A2), to(#3151A2));
-    background-image: -webkit-linear-gradient(top, #3151A2, #3151A2);
-    background-image: -moz-linear-gradient(top, #3151A2, #3151A2);
-    background-image: -ms-linear-gradient(top, #3151A2, #3151A2);
-    background-image: -o-linear-gradient(top, #3151A2, #3151A2);
-    background-image: linear-gradient(top, #3151A2, #3151A2);
-    
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    
-    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-    
-     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
-     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
-     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
-    
-    border-width: 1px;
-    border-style: solid;
-    border-color: #3151A2 #3151A2 #3151A2 #3151A2;
-
-    float: left;
-    height: 35px;
-    padding: 0;
-    width: 160px;
-    cursor: pointer;
-    font: bold 15px Arial, Helvetica;
-    color: #ffb94b;
+   @include submit;
 }
 
 .submit:hover,.submit:focus
 {		
-    color: #3151A2;
-    background-color: #fddb6f;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
-    background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
-    background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
-    background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
-    background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
-    background-image: linear-gradient(top, #ffb94b, #fddb6f);
+    @include submithf
 }	
 
 .submit:active
@@ -658,9 +425,6 @@ fieldset
     top: 60px;
     color: #999;
 }
-
-
-
 }
 
 @media screen and (max-width : 439px) {  
@@ -669,14 +433,7 @@ fieldset
     } 
     .registration
     {
-        
-        background-color: #fff;
-        background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
-        background-image: -webkit-linear-gradient(top, #fff, #eee);
-        background-image: -moz-linear-gradient(top, #fff, #eee);
-        background-image: -ms-linear-gradient(top, #fff, #eee);
-        background-image: -o-linear-gradient(top, #fff, #eee);
-        background-image: linear-gradient(top, #fff, #eee);  
+        @include registration-color;
         height: 270px;
         width: 50%;
        // margin: -150px 0 0 -230px;
@@ -688,31 +445,6 @@ fieldset
         position: absolute;
         top: 130px;
         left:   28%;
-        z-index: 0;
-        -moz-border-radius: 3px;
-        -webkit-border-radius: 3px;
-        border-radius: 3px;  
-        -webkit-box-shadow:
-              0 0 2px rgba(0, 0, 0, 0.2),
-              0 1px 1px rgba(0, 0, 0, .2),
-              0 3px 0 #fff,
-              0 4px 0 rgba(0, 0, 0, .2),
-              0 6px 0 #fff,  
-              0 7px 0 rgba(0, 0, 0, .2);
-        -moz-box-shadow:
-              0 0 2px rgba(0, 0, 0, 0.2),  
-              1px 1px   0 rgba(0,   0,   0,   .1),
-              3px 3px   0 rgba(255, 255, 255, 1),
-              4px 4px   0 rgba(0,   0,   0,   .1),
-              6px 6px   0 rgba(255, 255, 255, 1),  
-              7px 7px   0 rgba(0,   0,   0,   .1);
-        box-shadow:
-              0 0 2px rgba(0, 0, 0, 0.2),  
-              0 1px 1px rgba(0, 0, 0, .2),
-              0 3px 0 #fff,
-              0 4px 0 rgba(0, 0, 0, .2),
-              0 6px 0 #fff,  
-              0 7px 0 rgba(0, 0, 0, .2);
     }
     .registration:before
 {
@@ -759,17 +491,7 @@ fieldset
 
 .inputs input
 {
-    background: #f1f1f1 url(http://www.red-team-design.com/wp-content/uploads/2011/09/login-sprite.png) no-repeat;
-    padding: 15px 15px 15px 30px;
-    margin: 0 0 10px 0;
-    width: 80%; /* 353 + 2 + 45 = 400 */
-    border: 1px solid #ccc;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
-    -webkit-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
-    box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    @include input;
 }
 .login{
     background-position: 5px -52px !important;
@@ -802,47 +524,12 @@ fieldset
 
 .submit
 {		
-    background-color: #3151A2;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#3151A2), to(#3151A2));
-    background-image: -webkit-linear-gradient(top, #3151A2, #3151A2);
-    background-image: -moz-linear-gradient(top, #3151A2, #3151A2);
-    background-image: -ms-linear-gradient(top, #3151A2, #3151A2);
-    background-image: -o-linear-gradient(top, #3151A2, #3151A2);
-    background-image: linear-gradient(top, #3151A2, #3151A2);
-    
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    
-    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-    
-     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
-     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
-     box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
-    
-    border-width: 1px;
-    border-style: solid;
-    border-color: #3151A2 #3151A2 #3151A2 #3151A2;
-
-    float: left;
-    height: 35px;
-    padding: 0;
-    width: 160px;
-    cursor: pointer;
-    font: bold 15px Arial, Helvetica;
-    color: #ffb94b;
+   @include submit;
 }
 
 .submit:hover,.submit:focus
 {		
-    color: #3151A2;
-    background-color: #fddb6f;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffb94b), to(#fddb6f));
-    background-image: -webkit-linear-gradient(top, #ffb94b, #fddb6f);
-    background-image: -moz-linear-gradient(top, #ffb94b, #fddb6f);
-    background-image: -ms-linear-gradient(top, #ffb94b, #fddb6f);
-    background-image: -o-linear-gradient(top, #ffb94b, #fddb6f);
-    background-image: linear-gradient(top, #ffb94b, #fddb6f);
+    @include submithf
 }	
 
 .submit:active

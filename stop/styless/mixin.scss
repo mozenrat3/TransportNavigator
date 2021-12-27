@@ -1,0 +1,68 @@
+
+@import "./const/const.scss";
+
+@mixin my_header {
+    flex: 0 0 auto;
+        position: absolute;
+            width: 100%;
+            background-color: $blg;   //blg
+            height: 40px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        
+        align-items: center;
+ }
+
+
+ @mixin headernav {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+     
+ }
+
+
+ @mixin abzac {
+    position: absolute;
+    width: 100%;
+    
+    top:591px;
+  
+    display: block;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    font-size: 40px;
+     
+ }
+
+ @mixin footer {
+    position: absolute;   
+    margin-top: 10px;
+     width: 100%;
+     background-color: $blg;
+     height: 123px;
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: flex-start;
+     
+ align-content: stretch;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+
+ @mixin footer1 {
+    position: absolute;   
+    margin-top: 12px;
+     width: 100%;
+     background-color: $blg;
+     height: 123px;
+     display: flex;
+     flex-flow: row nowrap;
+     justify-content: flex-start;
+     
+ align-content: stretch;
+     align-items: center;
+     justify-content: space-evenly;
+ }

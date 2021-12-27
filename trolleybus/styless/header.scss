@@ -1,24 +1,12 @@
 @import "./const/const.scss";
 
-
+@import "./mixin.scss";
 @media screen and (min-width: 1441px ){   
     .myheader{
-        flex: 0 0 auto;
-        position: absolute;
-            width: 100%;
-            background-color: $blg;
-            height: 40px;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: flex-start;
-        
-        align-items: center;
+        @include my_header;
     
     .header__nav{
-        margin: 0 auto;
-        width: 80%;
-        display: flex;
-        justify-content: space-between;
+        @include headernav;
     .header__a{
         font-size: 18px;
         color : $wh;
@@ -40,22 +28,10 @@
 
 @media screen and (min-width: 901px ) and (max-width : 1440px) {   
 .myheader{
-    flex: 0 0 auto;
-    position: absolute;
-        width: 100%;
-        background-color: $blg;
-        height: 40px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    
-    align-items: center;
+    @include my_header;
 
 .header__nav{
-    margin: 0 auto;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+    @include headernav;
 .header__a{
     font-size: 16px;
     color : $wh;
@@ -76,22 +52,10 @@
 }
 @media screen and (min-width: 440px) and  (max-width: 900px) {    
     .myheader{
-        flex: 0 0 auto;
-        position: absolute;
-            width: 100%;
-            background-color: $blg;
-            height: 40px;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: flex-start;
-        
-        align-items: center;
+        @include my_header;
     
     .header__nav{
-        margin: 0 auto;
-        width: 80%;
-        display: flex;
-        justify-content: space-between;
+        @include headernav;
     .header__a{
         font-size: 12px;
         color : $wh;
@@ -114,22 +78,10 @@
 
 @media screen and (max-width : 439px) {   
     .myheader{
-        flex: 0 0 auto;
-        position: absolute;
-            width: 100%;
-            background-color: $blg;
-            height: 40px;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: flex-start;
-        
-        align-items: center;
+        @include my_header;
     
     .header__nav{
-        margin: 0 auto;
-        width: 80%;
-        display: flex;
-        justify-content: space-between;
+        @include headernav;
     .header__a{
         font-size: 10px;
         color : $wh;

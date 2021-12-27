@@ -335,6 +335,7 @@
     display: block;
     flex-flow: row nowrap;
     justify-content: flex-start;
+    font-size: 40px;
   }
   .abzac .footer {
     position: absolute;
