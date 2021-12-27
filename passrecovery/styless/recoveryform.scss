@@ -290,7 +290,7 @@ fieldset
 
     
 }
-@media screen and (min-width: 440px) and  (max-width: 900px) {   
+@media screen and (min-width: 640px) and  (max-width: 900px) {   
     .recovery{
         font-size: 12px;
     } 
@@ -298,7 +298,7 @@ fieldset
     {
         @include recovery-color;
         height: 270px;
-        width: 50%;
+        width: 60%;
        // margin: -150px 0 0 -230px;
        display: block;
        flex-flow: row nowrap;
@@ -307,7 +307,7 @@ fieldset
         padding: 30px;
         position: absolute;
         top: 130px;
-        left:   25%;
+        left:   20%;
     }
     .recovery:before
 {
@@ -432,7 +432,7 @@ fieldset
 
 }
 
-@media screen and (max-width : 439px) {  
+@media screen and (min-width: 440px) and  (max-width: 639px) {   
     .recovery{
         font-size: 10px;
     } 
@@ -440,7 +440,7 @@ fieldset
     {
         @include recovery-color;
         height: 270px;
-        width: 50%;
+        width: 60%;
        // margin: -150px 0 0 -230px;
        display: block;
        flex-flow: row nowrap;
@@ -449,7 +449,7 @@ fieldset
         padding: 30px;
         position: absolute;
         top: 130px;
-        left:   28%;
+        left:   15%;
     }
     .recovery:before
 {

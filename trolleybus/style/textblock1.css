@@ -38,12 +38,12 @@
     justify-content: space-between;
   }
 }
-@media screen and (min-width: 440px) and (max-width: 900px) {
+@media screen and (min-width: 640px) and (max-width: 900px) {
   .text1 {
     position: absolute;
     width: 80%;
     max-width: 850px;
-    top: 295px;
+    top: 280px;
     left: 10%;
     display: flex;
     flex-flow: row nowrap;
@@ -58,11 +58,12 @@
     justify-content: space-between;
   }
 }
-@media screen and (max-width: 439px) {
+@media screen and (min-width: 440px) and (max-width: 639px) {
   .text1 {
     position: absolute;
     width: 80%;
-    top: 295px;
+    max-width: 850px;
+    top: 280px;
     left: 10%;
     display: flex;
     flex-flow: row nowrap;

@@ -35,7 +35,7 @@ p{
     position: absolute;
     width: 80%;
     max-width: 850px;
-    top: 437px;
+    top: 455px;
     left: 10%;
     display: flex;
     flex-flow: row nowrap;
@@ -53,13 +53,40 @@ p{
 }
 }
 }
-@media screen and (min-width: 440px) and  (max-width: 900px) {    
+
+@media screen and (min-width: 640px) and  (max-width: 900px) {    
+    
+    .text2{
+        position: absolute;
+        width: 80%;
+        max-width: 850px;
+        top: 450px;
+        left: 10%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    
+    
+    p{
+        color:$bl;
+         line-height: 12px;
+       font-size: 14px;
+       font-family:$Seriffont;
+       display: flex;
+       justify-content: space-between;
+            
+    }
+    }
+    }
+    
+
+@media screen and (min-width: 440px) and  (max-width: 639px) {    
     
 .text2{
     position: absolute;
     width: 80%;
     max-width: 850px;
-    top: 432px;
+    top: 450px;
     left: 10%;
     display: flex;
     flex-flow: row nowrap;
@@ -68,8 +95,8 @@ p{
 
 p{
     color:$bl;
-     line-height: 14px;
-   font-size: 12px;
+     line-height: 12px;
+   font-size: 10px;
    font-family:$Seriffont;
    display: flex;
    justify-content: space-between;

@@ -48,7 +48,7 @@
     }
 }
 }
-@media screen and (min-width: 440px) and  (max-width: 900px) {    
+@media screen and (min-width: 640px) and  (max-width: 900px) {    
     .search{
         position: absolute;
         width: 80%;
@@ -71,8 +71,7 @@
     }
 }
 }
-
-@media screen and (max-width : 439px) {   
+@media screen and (min-width: 440px) and  (max-width: 639px) {    
     .search{
         position: absolute;
         width: 80%;
@@ -85,12 +84,13 @@
         flex-flow: row nowrap;
         justify-content: flex-start;
     
+    
     .search__field2{
         margin: 0 auto;
         height: 40px;
-        width: 40%;
+        width: 370px;
         display: flex;
         justify-content: space-between;
     }
-    }
+}
 }

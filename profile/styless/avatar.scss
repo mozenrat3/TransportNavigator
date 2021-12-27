@@ -1,28 +1,110 @@
+
 @import "./const/const.scss";
+@import "./mixin.scss";
 
+@media screen and (min-width: 1441px ){   
+    .all{
 
-.all{
+        height:300px;
+        position: absolute;
+        top:115px;
+        left: 10%;
+        width:80%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    .avatar{
+        position: absolute;
+        top:5px;
+        left: 5px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        .avatar__image{
+            width: 50%;
+            height:60%;
+        }
+    }
+    }
+    
+}
 
-    height:375px;
-    position: absolute;
-    top:115px;
-    left: 10%;
-    width:400px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-.avatar{
+@media screen and (min-width: 901px ) and (max-width : 1440px) {   
+    .all{
 
-    height:370px;
-    position: absolute;
-    top:5px;
-    left: 5px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    .avatar__image{
-        
-        height:370px;
+        height:300px;
+        position: absolute;
+        top:115px;
+        left: 10%;
+        width:80%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    .avatar{
+        position: absolute;
+        top:5px;
+        left: 5px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        .avatar__image{
+            width: 50%;
+            height:60%;
+        }
+    }
+    }
+    
+}
+@media screen and (min-width: 640px) and  (max-width: 900px) {    
+    .all{
+
+        height:300px;
+        position: absolute;
+        top:115px;
+        left: 10%;
+        width:80%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    .avatar{
+        position: absolute;
+        top:5px;
+        left: 5px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        .avatar__image{
+            width: 50%;
+            height:70%;
+        }
+    }
     }
 }
+
+@media screen and (min-width: 440px) and  (max-width: 639px) {    
+    .all{
+
+        height:300px;
+        position: absolute;
+        top:115px;
+        left: 10%;
+        width:80%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    .avatar{
+        position: absolute;
+        top:5px;
+        left: 5px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        .avatar__image{
+            width: 50%;
+            height:80%;
+        }
+    }
+    }
 }
+
+

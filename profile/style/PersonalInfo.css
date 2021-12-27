@@ -1,24 +1,98 @@
-.PersonalInfo {
-  position: absolute;
-  height: 300px;
-  width: 100px;
-  top: 15px;
-  left: 291px;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
+@media screen and (min-width: 1441px) {
+  .PersonalInfo {
+    position: absolute;
+    height: 200px;
+    width: 20%;
+    top: 15px;
+    left: 40%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .PersonalInfo .PersonalInfo_login {
+    position: absolute;
+    height: 30%;
+    width: 70%;
+    top: 55px;
+  }
+  .PersonalInfo .PersonalInfo_status {
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    top: 105px;
+  }
 }
-.PersonalInfo .PersonalInfo_login {
-  position: absolute;
-  height: 30%;
-  width: 100%;
-  top: 55px;
+@media screen and (min-width: 901px) and (max-width: 1440px) {
+  .PersonalInfo {
+    position: absolute;
+    height: 200px;
+    width: 20%;
+    top: 15px;
+    left: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .PersonalInfo .PersonalInfo_login {
+    position: absolute;
+    height: 30%;
+    width: 70%;
+    top: 55px;
+  }
+  .PersonalInfo .PersonalInfo_status {
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    top: 105px;
+  }
 }
-.PersonalInfo .PersonalInfo_status {
-  position: absolute;
-  height: 30%;
-  width: 100%;
-  top: 105px;
+@media screen and (min-width: 640px) and (max-width: 900px) {
+  .PersonalInfo {
+    position: absolute;
+    height: 200px;
+    width: 20%;
+    top: 15px;
+    left: 60%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .PersonalInfo .PersonalInfo_login {
+    position: absolute;
+    height: 30%;
+    width: 70%;
+    top: 55px;
+  }
+  .PersonalInfo .PersonalInfo_status {
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    top: 105px;
+  }
+}
+@media screen and (min-width: 440px) and (max-width: 639px) {
+  .PersonalInfo {
+    position: absolute;
+    height: 200px;
+    width: 20%;
+    top: 15px;
+    left: 60%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .PersonalInfo .PersonalInfo_login {
+    position: absolute;
+    height: 30%;
+    width: 70%;
+    top: 55px;
+  }
+  .PersonalInfo .PersonalInfo_status {
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    top: 105px;
+  }
 }
 
 /*# sourceMappingURL=PersonalInfo.css.map */

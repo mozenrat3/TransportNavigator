@@ -3,15 +3,14 @@
 
 @mixin my_header {
     flex: 0 0 auto;
-        position: absolute;
-            width: 100%;
-            background-color: $blg;   //blg
-            height: 40px;
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: flex-start;
-        
-        align-items: center;
+    position: absolute;
+    width: 100%;
+    background-color: $blg;   //blg
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;    
+    align-items: center;
  }
 
 

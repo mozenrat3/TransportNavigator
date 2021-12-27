@@ -52,13 +52,13 @@ h2{
     }
     }
 }
-@media screen and (min-width: 440px) and  (max-width: 900px) {    
+@media screen and (min-width: 640px) and  (max-width: 900px) {    
     
     .zag22{
         position: absolute;
         width: 80%;
         max-width: 850px;
-        top: 435px;
+        top: 420px;
         left: 10%;
         display: flex;
         flex-flow: row nowrap;
@@ -68,7 +68,7 @@ h2{
     h2{
          color: $blg;
         line-height: 20px;
-       font-size: 24px;
+       font-size: 20px;
        font-family:$Seriffont;
        font-weight: 700;
        display: flex;
@@ -78,13 +78,13 @@ h2{
     }
 }
 
-@media screen and (max-width : 439px) {   
+@media screen and (min-width: 440px) and  (max-width: 639px) {    
     
     .zag22{
         position: absolute;
         width: 80%;
         max-width: 850px;
-        top: 435px;
+        top: 445px;
         left: 10%;
         display: flex;
         flex-flow: row nowrap;
@@ -94,7 +94,7 @@ h2{
     h2{
          color: $blg;
         line-height: 20px;
-       font-size: 24px;
+       font-size: 15px;
        font-family:$Seriffont;
        font-weight: 700;
        display: flex;
@@ -103,6 +103,7 @@ h2{
     }
     }
 }
+
 
 
 

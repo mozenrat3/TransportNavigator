@@ -51,7 +51,7 @@ p{
 }
 }
 }
-@media screen and (min-width: 440px) and  (max-width: 900px) {    
+@media screen and (min-width: 640px) and  (max-width: 900px) {    
     
 .text2{
     position: absolute;
@@ -67,7 +67,7 @@ p{
 p{
     color:$bl;
      line-height: 14px;
-   font-size: 12px;
+   font-size: 14px;
    font-family:$Seriffont;
    display: flex;
    justify-content: space-between;
@@ -76,30 +76,31 @@ p{
 }
 }
 
-@media screen and (max-width : 439px) {   
+@media screen and (min-width: 440px) and  (max-width: 639px) {    
     
-.text2{
-    position: absolute;
-    width: 80%;
-    top: 470px;
-    left: 10%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-
-
-p{
-    color:$bl;
-    line-height: 14px;
-   font-size: 10px;
-   font-family:$Seriffont;
-
-   display: flex;
-   justify-content: space-between;
-        
-}
-}
-}
+    .text2{
+        position: absolute;
+        width: 80%;
+        max-width: 850px;
+        top: 470px;
+        left: 10%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    
+    
+    p{
+        color:$bl;
+         line-height: 14px;
+       font-size: 10px;
+       font-family:$Seriffont;
+       display: flex;
+       justify-content: space-between;
+            
+    }
+    }
+    }
+    
 
 
 

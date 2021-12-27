@@ -66,41 +66,7 @@
     color: white;
   }
 }
-@media screen and (min-width: 440px) and (max-width: 900px) {
-  .myheader {
-    flex: 0 0 auto;
-    position: absolute;
-    width: 100%;
-    background-color: #507299;
-    height: 40px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .myheader .header__nav {
-    margin: 0 auto;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-  }
-  .myheader .header__nav .header__a {
-    font-size: 12px;
-    color: white;
-    text-decoration: none;
-    justify-content: space-between;
-  }
-  .myheader .header__nav .header__a:hover {
-    color: red;
-  }
-  .myheader .header__nav .header__a_color {
-    color: red;
-  }
-  .myheader .header__nav .header__a_color:hover {
-    color: white;
-  }
-}
-@media screen and (max-width: 439px) {
+@media screen and (min-width: 640px) and (max-width: 900px) {
   .myheader {
     flex: 0 0 auto;
     position: absolute;
@@ -120,6 +86,40 @@
   }
   .myheader .header__nav .header__a {
     font-size: 10px;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+  }
+  .myheader .header__nav .header__a:hover {
+    color: red;
+  }
+  .myheader .header__nav .header__a_color {
+    color: red;
+  }
+  .myheader .header__nav .header__a_color:hover {
+    color: white;
+  }
+}
+@media screen and (min-width: 440px) and (max-width: 639px) {
+  .myheader {
+    flex: 0 0 auto;
+    position: absolute;
+    width: 100%;
+    background-color: #507299;
+    height: 40px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .myheader .header__nav {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .myheader .header__nav .header__a {
+    font-size: 8px;
     color: white;
     text-decoration: none;
     justify-content: space-between;
@@ -208,7 +208,7 @@
     font-size: 16px;
   }
 }
-@media screen and (min-width: 440px) and (max-width: 900px) {
+@media screen and (min-width: 640px) and (max-width: 900px) {
   .abzac {
     position: absolute;
     width: 100%;
@@ -233,7 +233,7 @@
   }
   .abzac .footer .footer__logotip {
     position: relative;
-    right: 50px;
+    right: 10px;
     top: 3px;
   }
   .abzac .footer .footer__logotip .footer__logot {
@@ -242,10 +242,10 @@
   }
   .abzac .footer .footer_text {
     color: white;
-    font-size: 16px;
+    font-size: 15px;
   }
 }
-@media screen and (max-width: 439px) {
+@media screen and (min-width: 440px) and (max-width: 639px) {
   .abzac {
     position: absolute;
     width: 100%;
@@ -270,7 +270,7 @@
   }
   .abzac .footer .footer__logotip {
     position: relative;
-    right: 50px;
+    right: 10px;
     top: 3px;
   }
   .abzac .footer .footer__logotip .footer__logot {
@@ -279,7 +279,7 @@
   }
   .abzac .footer .footer_text {
     color: white;
-    font-size: 16px;
+    font-size: 13px;
   }
 }
 @media screen and (min-width: 1441px) {
@@ -626,7 +626,7 @@
     color: #999;
   }
 }
-@media screen and (min-width: 440px) and (max-width: 900px) {
+@media screen and (min-width: 640px) and (max-width: 900px) {
   .registration {
     font-size: 12px;
   }
@@ -647,14 +647,14 @@
     -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 1px 1px 0 rgba(0, 0, 0, 0.1), 3px 3px 0 white, 4px 4px 0 rgba(0, 0, 0, 0.1), 6px 6px 0 white, 7px 7px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.2), 0 3px 0 #fff, 0 4px 0 rgba(0, 0, 0, 0.2), 0 6px 0 #fff, 0 7px 0 rgba(0, 0, 0, 0.2);
     height: 270px;
-    width: 50%;
+    width: 60%;
     display: block;
     flex-flow: row nowrap;
     justify-content: flex-start;
     padding: 30px;
     position: absolute;
     top: 130px;
-    left: 25%;
+    left: 20%;
   }
 
   .registration:before {
@@ -798,7 +798,7 @@
     color: #999;
   }
 }
-@media screen and (max-width: 439px) {
+@media screen and (min-width: 440px) and (max-width: 639px) {
   .registration {
     font-size: 10px;
   }
@@ -819,14 +819,14 @@
     -moz-box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 1px 1px 0 rgba(0, 0, 0, 0.1), 3px 3px 0 white, 4px 4px 0 rgba(0, 0, 0, 0.1), 6px 6px 0 white, 7px 7px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.2), 0 3px 0 #fff, 0 4px 0 rgba(0, 0, 0, 0.2), 0 6px 0 #fff, 0 7px 0 rgba(0, 0, 0, 0.2);
     height: 270px;
-    width: 50%;
+    width: 65%;
     display: block;
     flex-flow: row nowrap;
     justify-content: flex-start;
     padding: 30px;
     position: absolute;
     top: 130px;
-    left: 28%;
+    left: 15%;
   }
 
   .registration:before {

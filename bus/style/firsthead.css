@@ -66,7 +66,7 @@
     justify-content: space-between;
   }
 }
-@media screen and (min-width: 440px) and (max-width: 900px) {
+@media screen and (min-width: 640px) and (max-width: 900px) {
   .busimage {
     position: absolute;
     width: 10%;
@@ -86,7 +86,7 @@
     width: 80%;
     max-width: 850px;
     top: 125px;
-    left: 16%;
+    left: 120px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -94,18 +94,18 @@
   .zag1 h1 {
     color: gray;
     line-height: 23px;
-    font-size: 18px;
+    font-size: 20px;
     font-family: "PT Serif", serif;
     display: flex;
     justify-content: space-between;
   }
 }
-@media screen and (max-width: 439px) {
+@media screen and (min-width: 440px) and (max-width: 639px) {
   .busimage {
     position: absolute;
     width: 10%;
     top: 137px;
-    left: 10%;
+    left: 50px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -118,16 +118,17 @@
   .zag1 {
     position: absolute;
     width: 80%;
+    max-width: 850px;
     top: 125px;
-    left: 16%;
+    left: 90px;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
   }
   .zag1 h1 {
     color: gray;
-    line-height: 20px;
-    font-size: 20px;
+    line-height: 23px;
+    font-size: 18px;
     font-family: "PT Serif", serif;
     display: flex;
     justify-content: space-between;

@@ -40,12 +40,33 @@
     justify-content: space-between;
   }
 }
-@media screen and (min-width: 440px) and (max-width: 900px) {
+@media screen and (min-width: 640px) and (max-width: 900px) {
   .zag2 {
     position: absolute;
     width: 80%;
     max-width: 850px;
-    top: 265px;
+    top: 250px;
+    left: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+  }
+  .zag2 h2 {
+    color: #507299;
+    line-height: 20px;
+    font-size: 20px;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 440px) and (max-width: 639px) {
+  .zag2 {
+    position: absolute;
+    width: 80%;
+    max-width: 850px;
+    top: 250px;
     left: 10%;
     display: flex;
     flex-flow: row nowrap;
@@ -55,26 +76,6 @@
     color: #507299;
     line-height: 20px;
     font-size: 16px;
-    font-family: "PT Serif", serif;
-    font-weight: 700;
-    display: flex;
-    justify-content: space-between;
-  }
-}
-@media screen and (max-width: 439px) {
-  .zag2 {
-    position: absolute;
-    width: 80%;
-    top: 265px;
-    left: 10%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-  }
-  .zag2 h2 {
-    color: #507299;
-    line-height: 20px;
-    font-size: 14px;
     font-family: "PT Serif", serif;
     font-weight: 700;
     display: flex;

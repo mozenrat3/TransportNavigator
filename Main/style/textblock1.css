@@ -38,7 +38,7 @@
     justify-content: space-between;
   }
 }
-@media screen and (min-width: 440px) and (max-width: 900px) {
+@media screen and (min-width: 640px) and (max-width: 900px) {
   .text1 {
     position: absolute;
     width: 80%;
@@ -51,17 +51,18 @@
   }
   .text1 p {
     color: black;
-    line-height: 14px;
+    line-height: 12px;
     font-size: 12px;
     font-family: "PT Serif", serif;
     display: flex;
     justify-content: space-between;
   }
 }
-@media screen and (max-width: 439px) {
+@media screen and (min-width: 440px) and (max-width: 639px) {
   .text1 {
     position: absolute;
     width: 80%;
+    max-width: 850px;
     top: 280px;
     left: 10%;
     display: flex;
@@ -70,7 +71,7 @@
   }
   .text1 p {
     color: black;
-    line-height: 14px;
+    line-height: 10px;
     font-size: 10px;
     font-family: "PT Serif", serif;
     display: flex;
